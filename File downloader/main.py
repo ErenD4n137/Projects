@@ -70,7 +70,7 @@ def download():
             download_details.image = photo
 
         else:
-            print("Failed:", response.status_code)
+            print("Couldn't preview file")
 
     except Exception as e:
         print("Error:", e)
